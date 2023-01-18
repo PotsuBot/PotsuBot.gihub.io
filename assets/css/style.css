@@ -167,9 +167,11 @@ html {
 .copyright a {
   color: #fff;
   text-decoration: none;
-  border-bottom: 1px dashed #fff;
-  transition-duration: 0.2s;
+  border-bottom: 1px solid #f8c8dc;
+  transition-duration: 0.5s;
 }
 .copyright a:hover {
-  border-bottom: 1px solid #f8c8dc;
+  color: #f8c8dc;
+  border-bottom: 1px solid #fff;
+  transition-duration: 0.5s;
 }
