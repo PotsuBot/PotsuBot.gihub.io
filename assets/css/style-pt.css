@@ -67,14 +67,26 @@ div.inside {
     overflow-y: scroll;
     scrollbar-width: thin;
 }
-.copyright a {
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 1px solid #f8c8dc;
-  transition-duration: 0.5s;
+div.copyright {
+    display: inherit;
+    padding: inherit;
+    margin: inherit;
+    box-shadow: inherit;
+    border-radius: inherit;
+    margin-bottom: inherit;
+    font-size: 0.8em;
+    color: #b6b6b6;
+    text-align: center;
+    line-height: 2;
 }
-.copyright a:hover {
-  color: #f8c8dc;
-  border-bottom: 1px solid #fff;
-  transition-duration: 0.5s;
+div.copyright a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #f8c8dc;
+    transition-duration: 0.5s;
+}
+div.copyright a:hover {
+    color: #f8c8dc;
+    border-bottom: 1px solid #fff;
+    transition-duration: 0.5s;
 }
