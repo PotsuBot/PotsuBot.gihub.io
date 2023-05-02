@@ -1,0 +1,73 @@
+potsu-header, header {  position: absolute;
+    display: flex;
+    top: 0;
+    width: 100vw;
+    height: 80px;
+    text-align: center;
+    background-color: #7c7c7c;
+}
+potsu-header {
+    box-shadow: 0px 0px 20px 1px #000000;
+}
+img.header-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+a.home-header>p {
+    display: flex;
+    flex-direction: row;
+    margin-left: 44px;
+    margin-top: -32px;
+}
+.home-div {
+    width: 50%;
+}
+.home-header {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+nav {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+.div-header {
+    width: 100%;
+    color: white;
+    height: 100%;
+}
+.pages-header {
+    width: 100%
+}
+.page-header {
+    color: white;
+    width: 20%;
+    text-align: center;
+}
+a.home-header, nav>div.div-header>div.pages-header>a.page-header {
+    text-decoration: none;
+    transition-duration: 0.5s;
+    line-height: 35px;
+    background-color: rgb(15, 15, 15);
+    width: 100px;
+    display: inline-block;
+    height: 40px;
+    border-radius: 50px;
+    margin: 20px;
+}
+a.home-header:hover, nav>div.div-header>div.pages-header>a.page-header:hover {
+    color: #f8c8dc;
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+}
+a.pages-header {
+    height: 100%;
+    display: inline-block;
+    width: 30%;
+}
